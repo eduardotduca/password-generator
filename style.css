@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    font-size: x-large;
+    color: #04BF55;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./matrix.jpg);
+    background-size: cover;
+}
+
+main {
+    padding: 20px;
+    box-shadow: 0 1px 10px #0D0D0D;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #0D0D0D;
+}
+
+main > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+    accent-color: #025928;
+    border-color: #025928;
+}
+
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+}
+
+input[type=range] {
+    width: 90%;
+}
+
+button {
+    background-color: #025928;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 5px;
+}
